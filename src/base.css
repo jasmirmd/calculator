@@ -1,0 +1,84 @@
+:root {
+  --crust: #11111b;
+  --overlay2: #9399b2;
+  --base: #1e1e2e;
+  --text: #cdd6f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--crust);
+}
+
+.calculator {
+  border: 2px solid var(--overlay2);
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: var(--base);
+}
+
+.main {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.text {
+  text-align: right;
+  caret-color: transparent;
+  outline: none;
+  font-size: 42px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--crust);
+  border: none;
+  border-radius: 10px;
+  color: var(--text);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1px;
+}
+
+.buttons div {
+  display: flex;
+  gap: 1px;
+  flex: 1;
+}
+
+.buttons div > button {
+  font-size: 26px;
+  flex: 1;
+  border: 1px solid var(--crust);
+  background-color: var(--overlay2);
+}
+
+.buttons div:first-child button {
+  flex-basis: calc(100%/5);
+}
+
+.buttons div:first-child button:first-child {
+  flex: 10.3;
+}
+
+@media (max-width: 800px) {
+  .main {
+    width: 300px;
+    height: 300px;
+  }
+}
