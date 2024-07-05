@@ -1,5 +1,5 @@
 # Calculator
-fifth project following the course of [The Odin Project](https://www.theodinproject.com), a calculator.
+Fifth project following the course of [The Odin Project](https://www.theodinproject.com), a calculator.
 
 ### Resources:
 
