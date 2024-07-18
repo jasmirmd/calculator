@@ -10,7 +10,7 @@ const clear = () => input.value = '';
 const del = () => input.value = input.value.slice(0, -1);
 
 const operations = {
-  '*': (a, b ) => a * b,
+  '*': (a, b) => a * b,
   '+': (a, b) => a + b,
   '-': (a, b) => a - b,
   '/': (a, b) => a / b,
