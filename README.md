@@ -3,7 +3,7 @@ Fifth project following the course of [The Odin Project](https://www.theodinproj
 
 ## Live Demo:
 
-![demo](public/demo.png)
+![demo](public/demo0.png)
 
 [View Live Demo](https://jasmirmd.github.io/calculator/)
 
