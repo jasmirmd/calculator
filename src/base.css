@@ -3,6 +3,7 @@
   --overlay2: #9399b2;
   --base: #1e1e2e;
   --text: #cdd6f4;
+  --lavender: #b4befe;
 }
 
 * {
@@ -74,6 +75,10 @@ body {
 
 .buttons div:first-child button:first-child {
   flex: 10.3;
+}
+
+.clr {
+  background-color: var(--lavender) !important;
 }
 
 @media (max-width: 800px) {
